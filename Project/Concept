@@ -14,4 +14,9 @@
     <label for="3plus">3+</label>
     <input type="radio" id="days" name="less1" value="lessthanone">
     <label for="less1">Less than 1</label>
+    <label for="going">Who is Going?</label>
+    <input type="radio" id="going" name="fullclass" value="full">
+    <label for="fullclass">Full Class</label>
+    <input type="text" id="custom">
+    <label for="custom">Custom Amount</label>
  </html>
