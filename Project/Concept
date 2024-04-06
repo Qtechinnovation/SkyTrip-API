@@ -5,5 +5,12 @@
     <label for="tripname">Trip Name:</label>
     <input type="text" id="tripname">
     <label for="days">Number of Days:</label>
-    <input type="radio" id="days">
+    <input type="radio" id="days" name="1day" value="daysone">
+    <label for="1day">1</label>
+    <input type="radio" id="days" name="2day" value="daystwo">
+    <label for="2day">2</label>
+    <input type="radio" id="days" name="3plus" value="threeplus">
+    <label for="3plus">3+</label>
+    <input type="radio" id="days" name="less1" value="lessthanone">
+    <label for="less1">Less than 1</label>
  </html>
