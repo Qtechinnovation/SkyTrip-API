@@ -68,10 +68,15 @@ select {
     <input type="text" id="tripname"><br><br>
     <label for="days">How Long?</label>
     <select id="days" name="days"><br>
-      <option value="1">1 Day</option>
-      <option value="2">2 Days</option>
-      <option value="3+">3+</option>
-      <option value=">1">Less Than 1</option>
+      <option value="1">1 Hour</option>
+      <option value="2">2 Hours</option>
+      <option value="3">3 Hours</option>
+      <option value="4">4 Hours</option>
+      <option value="5">5 Hours</option>
+      <option value="6">6 Hours</option>
+      <option value="7">7 Hours</option>
+      <option value="1+">1 Day or More</option>
+      <option value=">1">Less Than 1 Hour</option>
     </select><br><br>
     <label for="going">Who is Going?</label>
     <label for="fullclass">Full Class</label>
