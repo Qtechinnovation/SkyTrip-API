@@ -37,7 +37,7 @@ input[type="submit"] {
   border-color: transparent;
   margin: 4px 8px;
 }
-input[type="radio"] {
+input[type="checkbox"] {
   background-color: rgb(132, 132, 132);
   margin: 4px 8px;
 }
@@ -75,7 +75,7 @@ select {
     </select><br><br>
     <label for="going">Who is Going?</label>
     <label for="fullclass">Full Class</label>
-    <input type="radio" id="going" name="fullclass" value="full"><br>
+    <input type="checkbox" id="going" name="fullclass" value="full"><br>
     <label for="custom">Custom Amount:</label>
     <input type="text" id="custom"><br><br>
     <label for="email">Email:</label>
