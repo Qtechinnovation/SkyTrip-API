@@ -7,6 +7,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $days = $_POST["days"];
     $fullclass = $_POST["fullclass"];
     $custom = $_POST["custom"];
-    $email = $_POST["email"]
+    $email = $_POST["email"];
 }
 ?>
