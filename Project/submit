@@ -1,0 +1,21 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Retrieve form data
+    $name = $_POST["name"];
+    $date = $_POST["date"];
+    $tripname = $_POST["tripname"];
+    $days = $_POST["days"];
+    $fullclass = $_POST["fullclass"];
+    $custom = $_POST["custom"];
+    $email = $_POST["email"]
+
+    // Display the submitted data
+    echo "Name: " . $name . "<br>";
+    echo "Date: " . $date . "<br>";
+    echo "Tripname: " . $tripname . "<br>";
+    echo "Days: " . $days . "<br>";
+    echo "FullClass: " . $fullclass . "<br>";
+    echo "Custom: " . $custom . "<br>";
+    echo "Email: " . $email . "<br>";
+}
+?>
