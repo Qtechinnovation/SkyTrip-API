@@ -61,11 +61,11 @@ select {
   <form>
    <h1>SkyTrip Demo</h1>
     <label for="name">Name:</label>
-    <input type="text" id="name"><br><br>
+    <input type="text" id="name" name="name"><br><br>
     <label for="date">Date</label>
-    <input type="date" id="date"><br><br>
+    <input type="date" id="date" name="date"><br><br>
     <label for="tripname">Trip Name:</label>
-    <input type="text" id="tripname"><br><br>
+    <input type="text" id="tripname" name="tripname"><br><br>
     <label for="days">How Long?</label>
     <select id="days" name="days"><br>
       <option value="1">1 Hour</option>
@@ -80,9 +80,9 @@ select {
     </select><br><br>
     <label for="going">Who is Going?</label>
     <label for="fullclass">Full Class</label>
-    <input type="checkbox" id="going" name="fullclass" value="full"><br>
+    <input type="checkbox" id="fullclass" name="fullclass" value="full"><br>
     <label for="custom">Custom Amount:</label>
-    <input type="text" id="custom"><br><br>
+    <input type="text" id="custom" name="custom"><br><br>
     <label for="email">Email:</label>
     <input type="email" id="email" name="email"><br>
     <input type="submit"><br>
